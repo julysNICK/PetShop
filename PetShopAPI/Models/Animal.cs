@@ -6,5 +6,8 @@ public class Animal
   public string name { get; set; } = string.Empty;
   public string age { get; set; } = string.Empty;
 
+  public Guid ClientId { get; set; }
+
+  public Client Client { get; set; } = null!;
 
 }

@@ -8,5 +8,7 @@ public class AppDBContext : DbContext
   }
 
   public DbSet<Animal> Animals { get; set; }
+  public DbSet<Client> Clients { get; set; }
+
 
 }

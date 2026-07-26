@@ -13,6 +13,8 @@ public class AnimalRegistrationDto
 
   public string age { get; set; } = string.Empty;
 
+  public Guid ClientId { get; set; }
+
 
 
 }

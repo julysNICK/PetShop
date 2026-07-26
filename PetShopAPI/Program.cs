@@ -15,6 +15,8 @@ builder.Services.AddScoped<AnimalService>();
 
 builder.Services.AddScoped<IAnimalRepository, AnimalRepository>();
 
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+
 
 
 var app = builder.Build();
