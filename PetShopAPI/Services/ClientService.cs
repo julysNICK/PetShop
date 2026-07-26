@@ -1,8 +1,8 @@
 public class ClientService
 {
-  private readonly ClientRepository _clientRepository;
+  private readonly IClientRepository _clientRepository;
 
-  public ClientService(ClientRepository context)
+  public ClientService(IClientRepository context)
   {
     _clientRepository = context;
   }

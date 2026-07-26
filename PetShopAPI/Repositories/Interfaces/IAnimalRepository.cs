@@ -1,4 +1,4 @@
-interface IAnimalRepository
+public interface IAnimalRepository
 {
   public Task<IEnumerable<Animal>> GetAnimalsAsync();
 

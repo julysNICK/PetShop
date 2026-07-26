@@ -1,7 +1,7 @@
 public class AnimalService
 {
-  private readonly AnimalRepository _animalRepository;
-  public AnimalService(AnimalRepository animalRepository)
+  private readonly IAnimalRepository _animalRepository;
+  public AnimalService(IAnimalRepository animalRepository)
   {
     _animalRepository = animalRepository;
   }

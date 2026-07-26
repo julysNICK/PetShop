@@ -1,3 +1,4 @@
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,13 +11,15 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlite("Data source=petShopAPI.db"));
 
-builder.Services.AddScoped<AnimalService>();
 
 
 builder.Services.AddScoped<IAnimalRepository, AnimalRepository>();
 
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<AnimalService>();
+builder.Services.AddScoped<ClientService>();
 
+builder.Services.AddValidatorsFromAssemblyContaining<ClientValidator>();
 
 
 var app = builder.Build();

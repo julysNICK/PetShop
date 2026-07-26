@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aLnDTLFpPqI=",
+  "dgSpecHash": "xBX4o1HpVw4=",
   "success": true,
   "projectFilePath": "C:\\Users\\julys\\Documents\\.net\\petShop\\PetShopAPI\\PetShopAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\julys\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\julys\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\julys\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\julys\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
     "C:\\Users\\julys\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
