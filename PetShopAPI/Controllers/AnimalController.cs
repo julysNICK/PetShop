@@ -2,8 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PetShopAPI.Controllers;
 
+[Route("api/[controller]")]
 [ApiController]
-[Route("[controller]")]
 public class AnimalController : ControllerBase
 {
   private readonly AnimalService _animalService;
