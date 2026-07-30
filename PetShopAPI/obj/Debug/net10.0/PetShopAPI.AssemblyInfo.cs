@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetShopAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81da155ea4a518cc6faa13a71bc3c4ba8223e9db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e9890c602540ebcf440e24b550bade005aacc97")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetShopAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetShopAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
